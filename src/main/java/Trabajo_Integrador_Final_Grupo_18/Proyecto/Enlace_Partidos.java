@@ -24,3 +24,64 @@ public class Enlace_Partidos {
     private String Equipo_2;
 
     
+    public Integer getId_Partido() {
+        return Id_Partido;
+    }
+    public void setId_Partido(Integer id_Partido) {
+        Id_Partido = id_Partido;
+    }
+    public Integer getFase() {
+        return Fase;
+    }
+    public void setFase(Integer fase) {
+        Fase = fase;
+    }
+    public Integer getRonda() {
+        return Ronda;
+    }
+    public void setRonda(Integer ronda) {
+        Ronda = ronda;
+    }
+    public String getParticipante() {
+        return Participante;
+    }
+    public void setParticipante(String participante) {
+        Participante = participante;
+    }
+    public String getEquipo_1() {
+        return Equipo_1;
+    }
+    public void setEquipo_1(String equipo_1) {
+        Equipo_1 = equipo_1;
+    }
+    public String getGana_1() {
+        return Gana_1;
+    }
+    public void setGana_1(String gana_1) {
+        Gana_1 = gana_1;
+    }
+    public String getEmpata() {
+        return Empata;
+    }
+    public void setEmpata(String empata) {
+        Empata = empata;
+    }
+    public String getPierde_1() {
+        return Pierde_1;
+    }
+    public void setPierde_1(String pierde_1) {
+        Pierde_1 = pierde_1;
+    }
+    public String getEquipo_2() {
+        return Equipo_2;
+    }
+    public void setEquipo_2(String equipo_2) {
+        Equipo_2 = equipo_2;
+    }
+
+
+
+
+
+
+

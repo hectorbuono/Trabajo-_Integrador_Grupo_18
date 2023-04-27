@@ -1,6 +1,6 @@
 package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 import com.opencsv.bean.CsvBindByPosition;
-public class Enlace_Pronosticos {
+public class Partido {
     
         @CsvBindByPosition(position = 0)
         private Integer Id_Pronostico;

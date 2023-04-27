@@ -2,10 +2,10 @@ package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 
 import com.opencsv.bean.CsvBindByPosition;
 
-public class Enlace_Partidos {
+public class Pronostico {
 
     @CsvBindByPosition(position = 0)
-    private Integer Id_Partido;
+    private Integer Id_Pronostico;
     @CsvBindByPosition(position = 1)
     private Integer Fase;
     @CsvBindByPosition(position = 2)
@@ -78,7 +78,7 @@ public class Enlace_Partidos {
     public void setEquipo_2(String equipo_2) {
         Equipo_2 = equipo_2;
     }
-
+}
 
 
 

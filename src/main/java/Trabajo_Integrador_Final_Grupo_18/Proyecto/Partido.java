@@ -118,14 +118,14 @@ public class Partido {
         this.Equipo_2 = Equipo_2;
     }
 
-    public EnumResultado GanaEmpataPierde_E1(){
+    public EnumPartido GanaEmpataPierde_E1(){
     if (this.Goles_Equipo_1 > this.Goles_Equipo_2)
-        return EnumResultado.GANADOR;
+        return EnumPartido.GANADOR;
     
         if (this.Goles_Equipo_1 < this.Goles_Equipo_2)
-        return EnumResultado.PERDEDOR;
+        return EnumPartido.PERDEDOR;
         if (this.Goles_Equipo_1 == this.Goles_Equipo_2)
-        return EnumResultado.EMPATE;
+        return EnumPartido.EMPATE;
         
         
     

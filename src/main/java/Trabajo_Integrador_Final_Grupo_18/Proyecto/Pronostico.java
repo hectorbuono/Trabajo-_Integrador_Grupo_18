@@ -2,6 +2,8 @@ package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 
 import com.opencsv.bean.CsvBindByPosition;
 
+import Trabajo_Integrador_Final_Grupo_18.EnumPronostico;
+
 public class Pronostico {
 
     @CsvBindByPosition(position = 0)
@@ -155,13 +157,13 @@ public class Pronostico {
         this.Equipo_2 = Equipo_2;
     }
 
-    public EnumResultado GanaEmpataPierde_E1(){
+    public EnumPronostico GanaEmpataPierde_E1(){
           if (this.Gana_1 equals("X"))
-            return EnumResultado.GANADOR;
+            return EnumPronostico.GANADOR;
           if (this.Empata equals("X"))
-            return EnumResultado.EMPATE;
+            return EnumPronostico.EMPATE;
             if (this.Pierde_1 equals("X")2)
-            return EnumResultado.PIERDE;
+            return EnumPronostico.PERDEDOR;
             
     }
 }

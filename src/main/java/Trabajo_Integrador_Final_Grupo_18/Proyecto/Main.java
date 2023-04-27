@@ -24,7 +24,7 @@ public class Main
             for (Pronostico pronostico : lista_pronosticos){
 
               
-                     for (Partido partido : lista_partidos){
+                     for (Partido partido : lista_partidos_jugados){
 
                     if (partido.getEquipo_1()equals.IsIgnoreCase(pronostico.getEquipo_1()))
                     && (partido.getEquipo_2()equals.IsIgnoreCase (pronostico.getEquipo_2()))
@@ -35,7 +35,10 @@ public class Main
                      puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.getParticipante())+1);
                     
                      
-                     
+                     for (String participante : puntosParticipante.keySet()){
+                      System.out.println(participante +":" + puntosParticipante);
+
+                     }
                     
                      
                    }

@@ -13,8 +13,8 @@ public class Main
         
              Lector_Archivos lectorArchivos = new Lector_Archivos();
         
-                List listapartidos =  lectorArchivos.ParsearPartidos("src/resources/Partidos.csv");
-                List lista_pronosticos =  lectorArchivos.ParsearPronosticos("src/resources/Pronosticos.csv");
+                List listapartidos =  lectorArchivos.ParsearPartidos("src/main/resources/Partidos.csv");
+                List lista_pronosticos =  lectorArchivos.ParsearPronosticos("src/main/resources/Pronosticos.csv");
         
                 
                    listapartidos.forEach(System.out::println);

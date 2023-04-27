@@ -23,17 +23,25 @@ public class Main
 
             for (Pronostico pronostico : lista_pronosticos){
 
-                     if (!puntosParticipante.containsKey(pronostico.getParticipante())){
+              if (!puntosParticipante.containsKey(pronostico.getParticipante())){
 
-                        puntosParticipante.put(pronostico.getParticipante(),0);
-                     }
+                puntosParticipante.put(pronostico.getParticipante(),0);
 
                      for (Partido partido : lista_partidos){
 
-
+                    if (partido.getEquipo_1()equals.IsIgnoreCase(pronostico.getEquipo_1()))
+                    && (partido.getEquipo_2()equals.IsIgnoreCase (pronostico.getEquipo_2()))
                         
                      }
 
+                     if (partido.GanaEmpataPierde_E1()== pronostico.GanaEmpataPierde_E1()
+                     puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.getParticipante())+1);
+                    
+                     
+                     
+                    
+                     
+                   }
 
             }
 

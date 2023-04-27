@@ -118,4 +118,17 @@ public class Partido {
         this.Equipo_2 = Equipo_2;
     }
 
+    public EnumResultado GanaEmpataPierde_E1(){
+    if (this.Goles_Equipo_1 > this.Goles_Equipo_2)
+        return EnumResultado.GANADOR;
+    
+        if (this.Goles_Equipo_1 < this.Goles_Equipo_2)
+        return EnumResultado.PERDEDOR;
+        if (this.Goles_Equipo_1 == this.Goles_Equipo_2)
+        return EnumResultado.EMPATA;
+        
+        
+    
+    }
+
 }

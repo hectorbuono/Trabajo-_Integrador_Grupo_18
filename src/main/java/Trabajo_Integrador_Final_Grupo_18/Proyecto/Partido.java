@@ -16,6 +16,7 @@ public class Partido {
         private Integer Goles_Equipo_2;
         @CsvBindByPosition(position = 6)
         private String Equipo_2;
+		
 
 
 

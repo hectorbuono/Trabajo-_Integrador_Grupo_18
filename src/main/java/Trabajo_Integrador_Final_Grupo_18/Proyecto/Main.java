@@ -31,7 +31,7 @@ public class Main
                         
                    
 
-                     if (partido.GanaEmpataPierde_E1() == pronostico.GanaEmpataPierde_E1()){
+                    if (partido.GanaEmpataPierde_E1() == pronostico.GanaEmpataPierde_E1()){
                      puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.get(pronostico.getParticipante())+1);
                     
                      
@@ -89,9 +89,8 @@ public class Main
                   
    }
 
-
   }
-             
+        
         
             
         

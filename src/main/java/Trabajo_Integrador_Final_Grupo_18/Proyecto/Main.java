@@ -21,7 +21,21 @@ public class Main
               
             Map <String,Integer> puntosParticipante = new HashMap <String,Integer>();
 
-            for (Pronostico pronostico : lista_pronosticos);
+            for (Pronostico pronostico : lista_pronosticos){
+
+                     if (!puntosParticipante.containsKey(pronostico.getParticipante())){
+
+                        puntosParticipante.put(pronostico.getParticipante(),0);
+                     }
+
+                     for (Partido partido : lista_partidos){
+
+
+                        
+                     }
+
+
+            }
 
 
 

@@ -13,11 +13,11 @@ import com.opencsv.bean.CsvToBeanBuilder;
 
     public List ParsearPartidos(String rutaPartidos) {
 
-        List<Partido> lista_partidos_jugados= null;
+        List<Partido> lista_partidos= null;
         
         try {
             // En esta primera línea definimos el archivos que va a ingresar
-            lista_partidos_jugados = new CsvToBeanBuilder(new FileReader(rutaPartidos))
+            lista_partidos = new CsvToBeanBuilder(new FileReader(rutaPartidos))
                     // con esta configuración podemos skipear la primera línea de nuestro archivo CSV
                     .withSkipLines(1)
                     // con esta configuración podemos elegir cual es el caracter que vamos a usar para delimitar
@@ -30,7 +30,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
         } catch (IOException e) {
         e.printStackTrace();
     }
-        return lista_partidos_jugados;
+        return lista_partidos;
 }
     public List ParsearPronosticos(String rutaPronostico) {
             List <Pronostico> lista_pronosticos = null;

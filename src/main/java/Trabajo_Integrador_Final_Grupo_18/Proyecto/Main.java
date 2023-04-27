@@ -3,10 +3,13 @@ package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.io.*;
-
+import Trabajo_Integrador_Final_Grupo_18.Proyecto.Pronostico;
+import Trabajo_Integrador_Final_Grupo_18.Partido;
 public class Main 
 {
+    /**
+     * @param args
+     */
     public static void main( String[] args ){
             
      
@@ -28,8 +31,8 @@ public class Main
                         
                    
 
-                     if (partido.GanaEmpataPierde_E1()== pronostico.GanaEmpataPierde_E1())
-                     puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.getParticipante())+1){
+                     if (partido.GanaEmpataPierde_E1() == pronostico.GanaEmpataPierde_E1()){
+                     puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.get(pronostico.getParticipante())+1);
                     
                      
                      for (String participante : puntosParticipante.keySet()){
@@ -42,7 +45,7 @@ public class Main
 
             }
 
-          }
+         
 
 
 
@@ -85,10 +88,11 @@ public class Main
                        
                   
                 }
+              }               
         
             
         
-        }
+     
      
         
  

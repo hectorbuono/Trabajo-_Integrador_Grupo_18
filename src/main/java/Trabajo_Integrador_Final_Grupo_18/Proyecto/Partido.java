@@ -30,7 +30,7 @@ public class Partido {
     /**
      * @param Id_Partido the Id_Pronostico to set
      */
-    public void setId_Pronostico(Integer Id_Partido) {
+    public void setId_Partido(Integer Id_Partido) {
         this.Id_Partido = Id_Partido;
     }
 

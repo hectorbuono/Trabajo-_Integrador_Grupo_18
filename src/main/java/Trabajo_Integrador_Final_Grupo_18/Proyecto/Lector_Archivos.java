@@ -42,8 +42,7 @@ public class Lector_Archivos {
 	        e.printStackTrace();
 	    }
 	        this.partidosJugados = lista_de_partidos_jugados;
-	    }
-
+	    
 	   
 	    
 	     try {

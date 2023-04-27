@@ -3,7 +3,7 @@ import com.opencsv.bean.CsvBindByPosition;
 public class Partido {
     
         @CsvBindByPosition(position = 0)
-        private Integer Id_Pronostico;
+        private Integer Id_Partido;
         @CsvBindByPosition(position = 1)
         private Integer Fase;
         @CsvBindByPosition(position = 2)
@@ -23,15 +23,15 @@ public class Partido {
     /**
      * @return Integer return the Id_Pronostico
      */
-    public Integer getId_Pronostico() {
-        return Id_Pronostico;
+    public Integer getId_Partido() {
+        return Id_Partido;
     }
 
     /**
-     * @param Id_Pronostico the Id_Pronostico to set
+     * @param Id_Partido the Id_Pronostico to set
      */
-    public void setId_Pronostico(Integer Id_Pronostico) {
-        this.Id_Pronostico = Id_Pronostico;
+    public void setId_Pronostico(Integer Id_Partido) {
+        this.Id_Partido = Id_Partido;
     }
 
     /**

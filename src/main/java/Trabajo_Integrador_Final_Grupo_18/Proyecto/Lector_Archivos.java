@@ -32,7 +32,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
     }
         return lista_partidos_jugados;
 }
-        public List ParsearPronosticos(String rutaPronostico) {
+    public List ParsearPronosticos(String rutaPronostico) {
             List <Pronostico> lista_pronosticos = null;
 
         try {

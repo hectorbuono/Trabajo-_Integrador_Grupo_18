@@ -159,7 +159,7 @@ public class Pronostico {
           if (this.Gana_1 equals("X"))
             return EnumResultado.GANADOR;
           if (this.Empata equals("X"))
-            return EnumResultado.EMPATA;
+            return EnumResultado.EMPATE;
             if (this.Pierde_1 equals("X")2)
             return EnumResultado.PIERDE;
             

@@ -23,10 +23,7 @@ public class Main
 
             for (Pronostico pronostico : lista_pronosticos){
 
-              if (!puntosParticipante.containsKey(pronostico.getParticipante())){
-
-                puntosParticipante.put(pronostico.getParticipante(),0);
-
+              
                      for (Partido partido : lista_partidos){
 
                     if (partido.getEquipo_1()equals.IsIgnoreCase(pronostico.getEquipo_1()))

@@ -125,7 +125,7 @@ public class Partido {
         if (this.Goles_Equipo_1 < this.Goles_Equipo_2)
         return EnumResultado.PERDEDOR;
         if (this.Goles_Equipo_1 == this.Goles_Equipo_2)
-        return EnumResultado.EMPATA;
+        return EnumResultado.EMPATE;
         
         
     

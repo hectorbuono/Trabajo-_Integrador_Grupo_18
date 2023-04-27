@@ -8,11 +8,8 @@ import java.io.*;
 public class Main 
 {
     public static void main( String[] args ){
-
+            
      
-           
-               
-        
              Lector_Archivos lectorArchivos = new Lector_Archivos();
         
                 List lista_partidos = lectorArchivos.ParsearPartidos("src/main/resources/Partidos.csv");

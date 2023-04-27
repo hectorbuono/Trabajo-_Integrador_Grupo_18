@@ -2,8 +2,6 @@ package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 
 import com.opencsv.bean.CsvBindByPosition;
 
-import Trabajo_Integrador_Final_Grupo_18.EnumPronostico;
-
 public class Pronostico {
 
     @CsvBindByPosition(position = 0)

@@ -3,31 +3,31 @@ package Trabajo_Integrador_Final_Grupo_18.Proyecto;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import Trabajo_Integrador_Final_Grupo_18.Proyecto.Pronostico;
-import Trabajo_Integrador_Final_Grupo_18.Partido;
 public class Main 
 {
     /**
      * @param args
      */
-    public static void main( String[] args ){
-            
-     
+    public static void main( String[] args ) {
+    {
+      List <Partido> lista_partidos; 
+      List <Pronostico> lista_pronostico;
+
              Lector_Archivos lectorArchivos = new Lector_Archivos();
         
-                List lista_partidos = lectorArchivos.ParsearPartidos("src/main/resources/Partidos.csv");
-                List lista_pronosticos =  lectorArchivos.ParsearPronosticos("src/main/resources/Pronosticos.csv");
+                lista_partidos = lectorArchivos.ParsearPartidos("src/main/resources/Partidos.csv");
+                lista_pronostico =  lectorArchivos.ParsearPronosticos("src/main/resources/Pronosticos.csv");
         
               
             Map <String,Integer> puntosParticipante = new HashMap <String,Integer>();
 
-            for (Pronostico pronostico : lista_pronosticos){
+            for (Pronostico pronostico : lista_pronostico){
 
               
-                     for (Partido partido : lista_partidos){
+                     for (Partido partido : lista_partidos ){
 
                     if (partido.getFase().equals(pronostico.getFase()) && (partido.getRonda().equals(pronostico.getRonda()) && (partido.getFase().equals(pronostico.getFase()) && (partido.getEquipo_1()).equalsIgnoreCase(pronostico.getEquipo_1())
-                    && (partido.getEquipo_2().equalsIgnoreCase (pronostico.getEquipo_2())))))
+                    && (partido.getEquipo_2().equalsIgnoreCase (pronostico.getEquipo_2()))))){
                         
                    
 
@@ -47,9 +47,9 @@ public class Main
 
          
 
+          }
 
-
-
+        }
 
 
 
@@ -68,7 +68,7 @@ public class Main
                   ((Partido) lista_partidos.get(i)).getEquipo_1() + "\t" + "\t" + 
                   (((Partido) lista_partidos.get(i)).getGoles_Equipo_1()) + "\t" + "\t" + 
                   (((Partido) lista_partidos.get(i)).getGoles_Equipo_2()) + "\t" + "\t" + 
-                  (((Partido) lista_partidos.get(i)).getEquipo_2())) ;*/
+                  (((Partido) lista_partidos.get(i)).getEquipo_2())) ;
                   
                   /*for (int i = 0; i < lista_pronosticos.size(); i++) {
                   System.out.println(
@@ -87,8 +87,11 @@ public class Main
                 
                        
                   
-                }
-              }               
+   }
+
+
+  }
+             
         
             
         

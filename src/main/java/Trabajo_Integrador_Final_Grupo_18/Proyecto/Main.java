@@ -24,15 +24,15 @@ public class Main
             for (Pronostico pronostico : lista_pronosticos){
 
               
-                     for (Partido partido : lista_partidos_jugados){
+                     for (Partido partido : lista_partidos){
 
-                    if (partido.getEquipo_1()equals.IsIgnoreCase(pronostico.getEquipo_1()))
-                    && (partido.getEquipo_2()equals.IsIgnoreCase (pronostico.getEquipo_2()))
+                    if (partido.getFase().equals(pronostico.getFase()) && (partido.getRonda().equals(pronostico.getRonda()) && (partido.getFase().equals(pronostico.getFase()) && (partido.getEquipo_1()).equalsIgnoreCase(pronostico.getEquipo_1())
+                    && (partido.getEquipo_2().equalsIgnoreCase (pronostico.getEquipo_2())))))
                         
-                     }
+                   
 
-                     if (partido.GanaEmpataPierde_E1()== pronostico.GanaEmpataPierde_E1()
-                     puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.getParticipante())+1);
+                     if (partido.GanaEmpataPierde_E1()== pronostico.GanaEmpataPierde_E1())
+                     puntosParticipante.put(pronostico.getParticipante(), puntosParticipante.getParticipante())+1){
                     
                      
                      for (String participante : puntosParticipante.keySet()){
@@ -45,7 +45,7 @@ public class Main
 
             }
 
-
+          }
 
 
 

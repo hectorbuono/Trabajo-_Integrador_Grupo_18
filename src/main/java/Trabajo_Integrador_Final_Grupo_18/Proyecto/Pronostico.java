@@ -158,13 +158,13 @@ public class Pronostico {
     }
 
     public EnumPronostico GanaEmpataPierde_E1(){
-          if (this.Gana_1 equals("X"))
+          if (this.Gana_1.equals("X"))
             return EnumPronostico.GANADOR;
-          if (this.Empata equals("X"))
-            return EnumPronostico.EMPATE;
-            if (this.Pierde_1 equals("X")2)
+         
+          if (this.Pierde_1.equals("X"))
             return EnumPronostico.PERDEDOR;
-            
+            //if (this.Empata.equals("X"))
+            return EnumPronostico.EMPATE;  
     }
 }
     

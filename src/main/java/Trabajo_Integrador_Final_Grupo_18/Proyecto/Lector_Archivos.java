@@ -37,7 +37,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 
         try {
             // En esta primera línea definimos el archivos que va a ingresar
-            lista_pronosticos = new CsvToBeanBuilder(new FileReader(rutaPronostico));
+            lista_pronosticos = new CsvToBeanBuilder(new FileReader(rutaPronostico))
                     // con esta configuración podemos skipear la primera línea de nuestro archivo CSV
                     .withSkipLines(1)
                     // con esta configuración podemos elegir cual es el caracter que vamos a usar para delimitar

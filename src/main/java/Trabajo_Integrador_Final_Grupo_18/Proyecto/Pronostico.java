@@ -23,65 +23,137 @@ public class Pronostico {
     @CsvBindByPosition(position = 8)
     private String Equipo_2;
 
+
+
+
+
     
-    public Integer getId_Partido() {
-        return Id_Partido;
+
+    /**
+     * @return Integer return the Id_Pronostico
+     */
+    public Integer getId_Pronostico() {
+        return Id_Pronostico;
     }
-    public void setId_Partido(Integer id_Partido) {
-        Id_Partido = id_Partido;
+
+    /**
+     * @param Id_Pronostico the Id_Pronostico to set
+     */
+    public void setId_Pronostico(Integer Id_Pronostico) {
+        this.Id_Pronostico = Id_Pronostico;
     }
+
+    /**
+     * @return Integer return the Fase
+     */
     public Integer getFase() {
         return Fase;
     }
-    public void setFase(Integer fase) {
-        Fase = fase;
+
+    /**
+     * @param Fase the Fase to set
+     */
+    public void setFase(Integer Fase) {
+        this.Fase = Fase;
     }
+
+    /**
+     * @return Integer return the Ronda
+     */
     public Integer getRonda() {
         return Ronda;
     }
-    public void setRonda(Integer ronda) {
-        Ronda = ronda;
+
+    /**
+     * @param Ronda the Ronda to set
+     */
+    public void setRonda(Integer Ronda) {
+        this.Ronda = Ronda;
     }
+
+    /**
+     * @return String return the Participante
+     */
     public String getParticipante() {
         return Participante;
     }
-    public void setParticipante(String participante) {
-        Participante = participante;
+
+    /**
+     * @param Participante the Participante to set
+     */
+    public void setParticipante(String Participante) {
+        this.Participante = Participante;
     }
+
+    /**
+     * @return String return the Equipo_1
+     */
     public String getEquipo_1() {
         return Equipo_1;
     }
-    public void setEquipo_1(String equipo_1) {
-        Equipo_1 = equipo_1;
+
+    /**
+     * @param Equipo_1 the Equipo_1 to set
+     */
+    public void setEquipo_1(String Equipo_1) {
+        this.Equipo_1 = Equipo_1;
     }
+
+    /**
+     * @return String return the Gana_1
+     */
     public String getGana_1() {
         return Gana_1;
     }
-    public void setGana_1(String gana_1) {
-        Gana_1 = gana_1;
+
+    /**
+     * @param Gana_1 the Gana_1 to set
+     */
+    public void setGana_1(String Gana_1) {
+        this.Gana_1 = Gana_1;
     }
+
+    /**
+     * @return String return the Empata
+     */
     public String getEmpata() {
         return Empata;
     }
-    public void setEmpata(String empata) {
-        Empata = empata;
+
+    /**
+     * @param Empata the Empata to set
+     */
+    public void setEmpata(String Empata) {
+        this.Empata = Empata;
     }
+
+    /**
+     * @return String return the Pierde_1
+     */
     public String getPierde_1() {
         return Pierde_1;
     }
-    public void setPierde_1(String pierde_1) {
-        Pierde_1 = pierde_1;
+
+    /**
+     * @param Pierde_1 the Pierde_1 to set
+     */
+    public void setPierde_1(String Pierde_1) {
+        this.Pierde_1 = Pierde_1;
     }
+
+    /**
+     * @return String return the Equipo_2
+     */
     public String getEquipo_2() {
         return Equipo_2;
     }
-    public void setEquipo_2(String equipo_2) {
-        Equipo_2 = equipo_2;
+
+    /**
+     * @param Equipo_2 the Equipo_2 to set
+     */
+    public void setEquipo_2(String Equipo_2) {
+        this.Equipo_2 = Equipo_2;
     }
+
 }
-
-
-
-
-
-
+    
